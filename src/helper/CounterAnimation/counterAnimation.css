@@ -1,0 +1,28 @@
+.counter {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-size: 47px;
+  font-weight: bolder;
+  opacity: 0;
+  scale: 1;
+  color: white;
+  animation-name: counterAnimation;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes counterAnimation {
+  from {
+    scale: 5;
+    opacity: 1;
+  }
+  95% {
+    scale: 1;
+    opacity: 5;
+  }
+}

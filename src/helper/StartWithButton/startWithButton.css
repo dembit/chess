@@ -1,0 +1,28 @@
+.startState {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #00000094;
+}
+
+.startState button {
+  background-color: rgb(56, 219, 56);
+  padding: 10px;
+  color: white;
+  font-size: 32px;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: none;
+  box-shadow: 2px 2px 5px 2px #6c6966;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.startState button:hover {
+  opacity: 1;
+}
